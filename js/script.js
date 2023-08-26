@@ -58,7 +58,7 @@ strangeArray.sort((a, b) => {
 
   if (typeof a === "string" && typeof b === "string" && a.toLowerCase() == b.toLowerCase()){
 
-    //implemento toLowerCase() porque sort compara los strings segun su código unicode, el unicode para
+    //implemento toLowerCase() porque sort compara los strings según su código unicode, el unicode para
     //mayúsculas y minúsculas es distinto.
 
     return 0;
@@ -80,7 +80,7 @@ strangeArray.sort((a, b) => {
 
 
 
-/*OTRA SOLUCIÓN UTILIZANDO LA FUNCIÓN FILTER(), SORT() Y TYPEOF()*/
+/*OTRA SOLUCIÓN UTILIZANDO LOS MÉTODOS FILTER(), SORT() Y TYPEOF()*/
 
 //Utilizo la función flecha o anónima la cual no necesita de la palabra clave "return"
 
